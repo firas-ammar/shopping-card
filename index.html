@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=lg, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css" />
+    
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Shopping</title>
+    </head>
+    <body>
+    <div class="shopping-card">
+      <div class="container">
+          <label> Shopping Bag Total :</label> <label id="Total-price" > 0 </label><label>$</label>
+
+                <div class="coq">
+                        
+                     
+                        <div class="image">
+                          <img src="coq.jpg" alt="coq" width="100px"  height="100px"/>
+                        </div>
+                     
+                        <div class="description">
+                          <span></span>
+                          <span>adidas stan</span> 
+                          <span>Black</span>
+                        </div>
+                        
+                     
+                        <div class="commande">
+                          <button class="plus" type="button" name="buttonCoq+"   onclick="AddCoq(event)">
+                            <img src="plus.png" alt=""  width="30" height="30"/>        
+                          </button>
+                        
+                          <label id="qauntite"> 0</label> 
+
+                          <button class="moin" type="button" name="buttonCoq-" onclick="DeductCoq(event)">
+                            <img src="moin.png" alt=""  width="30" height="30"/>
+                          </button>
+                        </div>
+                       <label id="price1" > 0 </label><label>$</label>
+                </div>
+                <div class="adidas">
+
+                        <div class="image">
+                                <img src="adidas-stan-smith-man.jpg" alt="coq" width="100px"  height="100px"/>
+                              </div>
+
+                              <div class="description">
+                                    <span></span>
+                                    <span>coq Sportif</span>
+                                    <span>Blanc</span>
+                                  </div>
+
+                        <div class="commande2">
+                                <button class="plus" type="button" name="buttonAdidas+"   onclick="AddAdidas(event)">
+                                  <img src="plus.png" alt=""  width="30" height="30" />   
+                                </button>
+                              
+                                <label id="qauntite2"> 0</label> 
+
+                                <button class="moin" type="button" name="buttonAdidas-" onclick="DeductAdidas(event)">
+                                  <img src="moin.png" alt=""  width="30" height="30"/>
+                                </button>
+                              </div>
+                     
+                              <label id="price2" > 0 </label><label>$</label>                    
+                </div>
+
+                <div class="nike">
+                        
+                            <div class="image">
+                              <img src="3723-chaussures-nike-f-racquette-bc-nr-t415-vue-dessous-semelle.jpg" alt="nike" width="100px"  height="100px"/>
+                            </div>
+                         
+                            <div class="description">
+                              <span></span>
+                              <span>nike flash</span>
+                              <span>Blanc</span>
+                            </div>
+                            
+                         
+                            <div class="commande3">
+                              <button class="plus" type="button" name="buttonnike+"   onclick="AddNike(event)">
+                                <img src="plus.png" alt=""  width="30" height="30"/>        
+                              </button>
+                            
+                              <label id="qauntite3"> 0</label> 
+    
+                              <button class="moin" type="button" name="buttonnike-" onclick="DeductNike(event)">
+                                <img src="moin.png" alt=""  width="30" height="30"/>
+                              </button>
+                            </div>
+                           <label id="price3" > 0 </label><label>$</label>
+                    </div>
+                </div>
+
+
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+            <script type="text/javascript" src="index.js"></script>
+      
+          </body>
+      </html>
+      

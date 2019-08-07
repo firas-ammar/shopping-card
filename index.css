@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.coq{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid black ;
+}
+
+.adidas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid black ;
+
+}
+
+.nike{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid black ;
+
+}
+
+.container{
+z-index: 3;
+background-color:wheat;
+border-radius: 10px;
+padding: 50px;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shopping-card{
+    background-color: green;
+    padding-bottom: 200px;
+    padding-top: 80px;
+
+
+
+}
